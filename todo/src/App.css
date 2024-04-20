@@ -6,6 +6,21 @@
   height: 40vmin;
   pointer-events: none;
 }
+.cross-out {
+  text-decoration: line-through;
+  color:#282c34;
+}
+ol li {
+  margin: 5px 0;
+}
+
+ol li span {
+  margin-right: 50px;
+}
+
+ol li button:not(:last-child) {
+  margin-right: 5px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
